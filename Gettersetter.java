@@ -1,5 +1,5 @@
-package Oopsjava;
-class z{
+package Examquestion;
+class L{
     private String name;
     private int id;
     public void setName(String n){
@@ -18,7 +18,7 @@ class z{
 }
 public class Gettersetter {
    public static void main(String[] args){ 
-    z r=new z();
+    L r=new L();
     r.setName("Shubham");
     System.out.println(r.getName());
     r.setId(48);
