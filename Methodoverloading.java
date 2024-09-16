@@ -1,4 +1,4 @@
-package Oopsjava;
+package Examquestion;
 import java.util.*;
 public class Methodoverloading {
     static void foo(){
@@ -58,8 +58,9 @@ public class Methodoverloading {
         foo(4000);
         foo(7000,80000);
         foo(7000,80000,9000);
-        System.out.println(foo(3,4,5));
+        //System.out.println(foo(3,4,5));
         // argument are actual 
 
     }
 }
+
