@@ -1,11 +1,11 @@
-package Oopsjava;
+package Examquestion;
 import java.util.*;
 public class Methods {
     static int logic(int x,int y){
         //int logic(int x,int y){
         int z;
         if(x>y){
-             z=x+y;
+            z=x+y;
             
         }
         else{
@@ -13,6 +13,7 @@ public class Methods {
         }
         int a=56;
         return z;
+
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -33,6 +34,8 @@ public class Methods {
         //c1=obj1.logic(a1, b1);
         c1=logic(a1,b1);
         System.out.println(c1);
+        System.out.println(a1+b1);
+        System.out.println(logic(a1,b1));
 
     }
     
